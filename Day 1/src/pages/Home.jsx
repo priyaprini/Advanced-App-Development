@@ -7,28 +7,29 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const products = [
     {
       id: 1,
       imageUrl:
-        "https://i.pinimg.com/736x/da/d3/b5/dad3b5d4aa0aa50feedb10f699ef5604.jpg",
-      name: "BIRTHDAY DECORATIONS",
+        "https://images.homevents.in/service/decorations/balloon-decoration-at-home/balloon-decoration-at-home-4b50e29f-1807-4cae-870f-65ba08173685.jpg",
+      name: "Birthday Decorations",
       mrp: "₹6999",
     },
     {
       id: 2,
       imageUrl:
         "https://i.pinimg.com/564x/62/76/a8/6276a85bedfe4d2edb7912698973a647.jpg",
-      name: "BALLOON DECORATION",
+      name: "Balloon Decoration",
       mrp: "₹11599",
     },
     {
       id: 3,
       imageUrl:
         "https://i.pinimg.com/564x/dc/b1/60/dcb1606169964f7a76fe8d82bfacf881.jpg",
-      name: "BOSS BABY THEME",
+      name: "Boss Baby Theme",
       mrp: "₹11249",
     },
   ];
@@ -86,7 +87,7 @@ const Home = () => {
       window.removeEventListener("scroll", reveal);
     };
   }, []);
-
+  const navigate = useNavigate();
   return (
     <div>
       {/* <div>
@@ -141,10 +142,10 @@ const Home = () => {
                 />
               </div>
               <div className="hitwork-cont">
-                <h4>Plan your Event</h4>
+                <h4>Get a Quote</h4>
                 <p>
-                  Send us your event details and we will plan everything to
-                  perfection to your preferences
+                  Get a transparent and comprehensive quote of all anticipated
+                  expenses and miscellaneous
                 </p>
               </div>
             </a>
@@ -164,10 +165,10 @@ const Home = () => {
                 />
               </div>
               <div className="hitwork-cont">
-                <h4>Plan your Event</h4>
+                <h4>Celebrate your Events</h4>
                 <p>
-                  Send us your event details and we will plan everything to
-                  perfection to your preferences
+                  Sit back and celebrate your event with loved ones as Homevents
+                  takes care of everything else
                 </p>
               </div>
             </a>
@@ -209,7 +210,9 @@ const Home = () => {
           </div>
         </div>
         <div className="view-all-button-container">
-          <button className="view-all-button">View All</button>
+          <button onClick={() => navigate("/pro")} className="view-all-button">
+            View All
+          </button>
         </div>
       </div>
       <div className="img-occ-back show-wrapper">
@@ -227,7 +230,7 @@ const Home = () => {
             <a href="">
               <div className="giftoccas-img ">
                 <img
-                  src="https://i.pinimg.com/736x/c0/73/d2/c073d289987dc0b94b8a39992beef061.jpg"
+                  src="https://images.homevents.in/service/return-gifts/flowers-and-plants/flowers-and-plants-015c613c-5af8-4d61-bb66-a4b3ab02152d.jpg"
                   alt=""
                   className="hover:scale-125 transition-all duration-500"
                 />
@@ -249,7 +252,7 @@ const Home = () => {
             <a href="">
               <div className="giftoccas-img">
                 <img
-                  src="https://i.pinimg.com/736x/c0/73/d2/c073d289987dc0b94b8a39992beef061.jpg"
+                  src="https://images.homevents.in/service/return-gifts/flowers-and-plants/flowers-and-plants-61bd85b0-3c7b-4c88-87b4-c6046004e6f4.jpg"
                   alt=""
                   className="hover:scale-125 transition-all duration-500"
                 />
@@ -271,7 +274,7 @@ const Home = () => {
             <a href="">
               <div className="giftoccas-img">
                 <img
-                  src="https://i.pinimg.com/736x/c0/73/d2/c073d289987dc0b94b8a39992beef061.jpg"
+                  src="https://images.homevents.in/service/return-gifts/kids-return-gift/kids-return-gift-5ce54c1b-84d0-4a7b-8941-a977c7c740e7.jpg"
                   alt=""
                   className="hover:scale-125 transition-all duration-500"
                 />
@@ -293,7 +296,7 @@ const Home = () => {
             <a href="">
               <div className="giftoccas-img">
                 <img
-                  src="https://i.pinimg.com/736x/c0/73/d2/c073d289987dc0b94b8a39992beef061.jpg"
+                  src="https://images.homevents.in/service/return-gifts/kids-return-gift/kids-return-gift-78b188e4-8315-45f0-b526-c3d598ceadc3.jpg"
                   alt=""
                   className="hover:scale-125 transition-all duration-500"
                 />
@@ -315,7 +318,7 @@ const Home = () => {
             <a href="">
               <div className="giftoccas-img">
                 <img
-                  src="https://i.pinimg.com/736x/c0/73/d2/c073d289987dc0b94b8a39992beef061.jpg"
+                  src="https://images.homevents.in/service/return-gifts/kids-return-gift/kids-return-gift-e801b91f-d32c-40ee-b5ec-d6469b57e299.jpeg"
                   alt=""
                   className="hover:scale-125 transition-all duration-500"
                 />
@@ -337,7 +340,7 @@ const Home = () => {
             <a href="">
               <div className="giftoccas-img">
                 <img
-                  src="https://i.pinimg.com/736x/c0/73/d2/c073d289987dc0b94b8a39992beef061.jpg"
+                  src="https://images.homevents.in/service/return-gifts/kids-return-gift/kids-return-gift-1621c7e1-62cd-4bd7-bf9e-040dfe10bc90.jpg"
                   alt=""
                   className="hover:scale-125 transition-all duration-500"
                 />
@@ -359,7 +362,7 @@ const Home = () => {
             <a href="">
               <div className="giftoccas-img">
                 <img
-                  src="https://i.pinimg.com/736x/c0/73/d2/c073d289987dc0b94b8a39992beef061.jpg"
+                  src="https://images.homevents.in/service/return-gifts/kids-return-gift/kids-return-gift-63df6f76-3c0d-476f-af53-f26c1cc0ca03.jpg"
                   alt=""
                   className="hover:scale-125 transition-all duration-500"
                 />
@@ -397,7 +400,7 @@ const Home = () => {
                     all, we plan and execute the event like it is our own, and
                     leave you to fully indulge in your day and make it your own.{" "}
                   </p>
-                  <button>Know More</button>
+                  <button onClick={() => navigate("/about")}>Know More</button>
                 </div>
               </div>
               <div className="whyh-right">

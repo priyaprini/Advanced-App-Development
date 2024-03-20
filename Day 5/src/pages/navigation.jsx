@@ -132,7 +132,7 @@ export default function Navigation() {
       </Transition.Root>
 
       <header className="relative bg-white">
-        <div className="flex h-10 items-center justify-end bg-violet-700 px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
+        <div className="flex h-10 items-center justify-end bg-pink-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
           <img
             src="https://images-stg.homevents.in/assets/whatsapp-icon.png"
             alt="WhatsApp Logo"
@@ -140,12 +140,12 @@ export default function Navigation() {
             style={{ width: "20px", height: "20px" }}
           />
           <a
-            href="https://wa.me/ 6381236781"
+            href="https://wa.me/8667449744"
             target="_blank"
             rel="noopener noreferrer"
             style={{ marginRight: "10px" }}
           >
-            6381236781
+            8667449744
           </a>
           {"     "}
           <img
@@ -155,7 +155,7 @@ export default function Navigation() {
             style={{ width: "20px", height: "20px" }}
           />
           <a
-            href="mailto:priyadharshinikp19@gmail.com"
+            href="mailto:yuvaraj25112003@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             style={{ marginRight: "10px" }}
@@ -181,7 +181,7 @@ export default function Navigation() {
                 <Link to="/">
                   <span className="sr-only">Your Company</span>
                   <img
-                    src="https://res.cloudinary.com/ddkso1wxi/image/upload/v1675919455/Logo/Copy_of_Zosh_Academy_nblljp.png"
+                    src="https://res.cloudinary.com/dnksokt7c/image/upload/v1710874127/image-911x332_uszejx.png"
                     alt="Shopwithzosh"
                     className="h-8 w-8 mr-2"
                   />

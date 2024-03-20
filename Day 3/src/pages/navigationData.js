@@ -11,9 +11,9 @@ export const navigation = {
       link: "services",
     },
     {
-      id: "tc",
-      name: "T&C",
-      link: "T&C",
+      id: "myevents",
+      name: "My Events",
+      link: "myevents",
     },
     {
       id: "faq",

@@ -1,18 +1,19 @@
 import { Button, Grid, TextField } from "@mui/material";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const LoginForm = () => {
   const navigate = useNavigate();
+  const location = useLocation();
+  const { state } = location;
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    const userData = {
-      email: data.get("email"),
-      password: data.get("password"),
-    };
+    if (state && state.email && state.password) {
+      console.log("Email:", state.email);
+      console.log("Password:", state.password);
 
-    console.log(userData);
+      navigate("/services");
+    }
   };
 
   return (
@@ -65,10 +66,10 @@ const LoginForm = () => {
       </form>
       <div className="flex justify-center flex-col items-center">
         <div className="py-3 flex items-center">
-          <p>if you have don&apos;t have account ?</p>
+          <p>if you have don't have account ?</p>
           <Button
             onClick={() => navigate("/register")}
-            className="ml-5 "
+            className="ml-5"
             size="small"
             sx={{
               color: "#eb247b",

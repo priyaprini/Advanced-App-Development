@@ -1,17 +1,21 @@
+import { useNavigate } from "react-router-dom";
 import "../assets/css/Services.css";
 
+
 const Services = () => {
+  const navigate = useNavigate();
+
   return (
     <div>
       <section
         className="innerpage_banner aboutusbanner"
         style={{
           backgroundImage:
-            "url('https://images.homevents.in/event/birthday/birthday-2d78b49c-6e0f-4e34-a644-d63a88ad2207.jpg')",
+            "url('https://static.vecteezy.com/system/resources/previews/003/397/316/non_2x/happy-birthday-or-party-background-photo.jpg')",
         }}
       >
         <div className="banner-content">
-          <h1 className="banner-name-1">Birthday</h1>
+          <h1 className="banner-name-1">Let's Celebrate</h1>
           <span></span>
         </div>
       </section>
@@ -31,10 +35,10 @@ const Services = () => {
             </div>
             <div className="services-container-1">
               <div className="decor-item">
-                <a href="">
+                <a onClick={() => navigate("/pro")}>
                   <div className="decor-img">
                     <img
-                      src="https://i.pinimg.com/564x/d3/9d/19/d39d19266a4ed142e279beb9bef733d7.jpg"
+                      src="https://images.homevents.in/service/decorations/balloon-decorations/balloon-decorations-5db46366-d2f7-47a7-b6dd-c415d6e1b05a.jpg"
                       alt="Birthday-Balloon Decorations"
                     />
                   </div>
@@ -44,7 +48,7 @@ const Services = () => {
                 </a>
               </div>
               <div className="decor-item">
-                <a href="">
+                <a onClick={() => navigate("/pro")}>
                   <div className="decor-img">
                     <img
                       src="https://images.homevents.in/service/decorations/theme-decoration/theme-decoration-08bd24d6-1feb-495e-80d6-fc7439739add.jpg"
@@ -76,7 +80,7 @@ const Services = () => {
             </div>
             <div className="services-container-1">
               <div className="decor-item">
-                <a href="">
+                <a onClick={() => navigate("/pro")}>
                   <div className="decor-img">
                     <img
                       src="https://images.homevents.in/service/photography/traditional-candid/traditional-candid-88d6dcf6-f625-4442-a6ff-86df8dea4e52.jpg"
@@ -89,7 +93,7 @@ const Services = () => {
                 </a>
               </div>
               <div className="decor-item">
-                <a href="">
+                <a onClick={() => navigate("/pro")}>
                   <div className="decor-img">
                     <img
                       src="https://images.homevents.in/service/photography/traditional-candid-outdoor/traditional-candid-outdoor-1ebf4103-640b-4835-ae3f-bebb6beefb0a.jpg"
@@ -121,7 +125,7 @@ const Services = () => {
             </div>
             <div className="services-container-1">
               <div className="single-decor-item">
-                <a href="">
+                <a onClick={() => navigate("/pro")}>
                   <div className="decor-img-fullwidth">
                     <img
                       src="https://images.homevents.in/service/cakes/theme-cakes/theme-cakes-034bca4c-5de3-45bc-8718-ac25c4113daf.jpg"
@@ -149,7 +153,7 @@ const Services = () => {
             </div>
             <div className="services-container-1">
               <div className="decor-item">
-                <a href="">
+                <a onClick={() => navigate("/pro")}>
                   <div className="decor-img">
                     <img
                       src="https://images.homevents.in/service/return-gifts/kids-return-gift/kids-return-gift-635a11b0-b498-4602-9237-fd14e44c6c00.jpg"
@@ -162,7 +166,7 @@ const Services = () => {
                 </a>
               </div>
               <div className="decor-item">
-                <a href="">
+                <a onClick={() => navigate("/pro")}>
                   <div className="decor-img">
                     <img
                       src="https://images.homevents.in/service/return-gifts/flowers-and-plants/flowers-and-plants-c72146f7-23d7-4f37-9f0f-768001155f73.jpg"
@@ -195,7 +199,7 @@ const Services = () => {
             <div className="services-container-1">
               <div className="decor-items-container">
                 <div className="decor-item">
-                  <a href="">
+                  <a onClick={() => navigate("/pro")}>
                     <div className="decor-img">
                       <img
                         src="https://images.homevents.in/service/entertainment/sound-and-lighting/sound-and-lighting-a1951772-0cdd-48a0-b90e-29595131d116.jpg"
@@ -208,7 +212,7 @@ const Services = () => {
                   </a>
                 </div>
                 <div className="decor-item">
-                  <a href="">
+                  <a onClick={() => navigate("/pro")}>
                     <div className="decor-img">
                       <img
                         src="https://images.homevents.in/service/entertainment/games/games-340a2908-cb43-40c2-8eac-3269de66087f.jpg"
@@ -221,7 +225,7 @@ const Services = () => {
                   </a>
                 </div>
                 <div className="decor-item">
-                  <a href="">
+                  <a onClick={() => navigate("/pro")}>
                     <div className="decor-img">
                       <img
                         src="https://images.homevents.in/service/entertainment/games/games-340a2908-cb43-40c2-8eac-3269de66087f.jpg"
@@ -256,7 +260,7 @@ const Services = () => {
             <div className="services-container-1">
               <div className="decor-items-container">
                 <div className="decor-item">
-                  <a href="">
+                  <a onClick={() => navigate("/pro")}>
                     <div className="decor-img">
                       <img
                         src="https://images.homevents.in/service/venues/party-hall/party-hall-2530867a-2cbf-4645-a5cd-53ab60f23407.jpg"
@@ -269,7 +273,7 @@ const Services = () => {
                   </a>
                 </div>
                 <div className="decor-item">
-                  <a href="">
+                  <a onClick={() => navigate("/pro")}>
                     <div className="decor-img">
                       <img
                         src="https://images.homevents.in/service/venues/banquet-hall/banquet-hall-a59c1c77-5ff8-46bb-b078-8ddf43a6e9f9.jpg"
@@ -282,7 +286,7 @@ const Services = () => {
                   </a>
                 </div>
                 <div className="decor-item">
-                  <a href="">
+                  <a onClick={() => navigate("/pro")}>
                     <div className="decor-img">
                       <img
                         src="https://images.homevents.in/service/venues/mandapam/mandapam-f8ef5d46-f85a-448c-a42e-e06548b4d27d.jpg"
@@ -295,7 +299,7 @@ const Services = () => {
                   </a>
                 </div>
                 <div className="decor-item">
-                  <a href="">
+                  <a onClick={() => navigate("/pro")}>
                     <div className="decor-img">
                       <img
                         src="https://images.homevents.in/service/venues/banquet-hall/banquet-hall-a59c1c77-5ff8-46bb-b078-8ddf43a6e9f9.jpg"
@@ -331,7 +335,7 @@ const Services = () => {
             </div>
             <div className="services-container-1">
               <div className="decor-item">
-                <a href="">
+                <a onClick={() => navigate("/pro")}>
                   <div className="decor-img">
                     <img
                       src="https://images.homevents.in/service/food/vegetarian/vegetarian-28341b6f-0364-452d-940b-51a720ccc0bb.jpg"
@@ -344,7 +348,7 @@ const Services = () => {
                 </a>
               </div>
               <div className="decor-item">
-                <a href="">
+                <a onClick={() => navigate("/pro")}>
                   <div className="decor-img">
                     <img
                       src="https://images.homevents.in/service/food/non-vegetarian/non-vegetarian-005cc782-757d-46ed-8ddf-3518b95b076d.jpg"

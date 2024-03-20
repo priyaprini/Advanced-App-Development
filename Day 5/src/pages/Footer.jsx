@@ -15,11 +15,11 @@ const Footer = () => {
       <Grid
         className="bg-black text-white text-center mt-10"
         container
-        sx={{ bgcolor: "purple", color: "white", py: 3 }}
+        sx={{ bgcolor: "black", color: "white", py: 3 }}
       >
         <Grid item xs={12} sm={6} md={3}>
           <Typography className="pb-3" variant="h6">
-            Artisan&lsquo;s Alley
+          EventBliss
           </Typography>
           <Typography variant="body2" gutterBottom>
             Crafting Dreams, Crafting Artistry, Crafting You.
@@ -115,7 +115,7 @@ const Footer = () => {
         </Grid>
         <Grid className="pt-15" item xs={10}>
           <Typography variant="body2" component="p" align="center">
-            &copy; 2023 Artisan&lsquo;s Alley. All rights reserved.
+            &copy; 2023 EventBliss. All rights reserved.
           </Typography>
           <Typography variant="body2" component="p" align="center">
             Made with React JS.
